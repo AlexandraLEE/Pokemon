@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-image: url("http://res.cloudinary.com/agent99/image/upload/c_scale,h_1100/v1522958626/BattleGame/Dark-Wallpaper.jpg");
+  background-size: 100%;
+}
