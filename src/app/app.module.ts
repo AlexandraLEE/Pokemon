@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
 import { AppComponent } from './app.component';
 import { ApiService } from './shared/api.service';
 import { TestComponent } from './test/test.component';
@@ -12,13 +14,17 @@ import { NavbarComponent } from './navbar/navbar.component';
   declarations: [
     AppComponent,
     TestComponent,
-    NavbarComponent
+    NavbarComponent,
+
   ],
+
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule.forRoot()
   ],
+
   providers: [ApiService],
   bootstrap: [AppComponent]
 })

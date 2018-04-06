@@ -1,40 +1,113 @@
-
-
 .titlebar {
-  background-color: darkblue !important;
-  height: 100px !important;
-
+    background-color: darkblue !important;
+    height: 100px !important;
 }
 
 .pagetitle {
-  font-family: 'Anton', sans-serif;
-  font-size: 48px;
-  color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    color: white;
 }
 
-.justwomen {
-  display: flex;
-  justify-content: space-around;
-  height: 100% !important;
-  width: 100%;
-  margin-top: 35%;
-}
-
-.namestitle {
-  color: white !important;
-  font-size: 14px !important;
-  text-align: center;
-  margin-top: 5px;
-  font-weight: bold;
-}
-
-.img-fluid {
-  box-shadow: 10px 5px 5px black;
-  width: 130px !important;
+.players {
+    font-family: 'Permanent Marker', cursive;
+    font-size: large;
 }
 
 .play {
   text-align: center;
   color: white;
   margin-top: 20px;
+}
+
+.justwomen {
+    display: flex;
+    justify-content: space-around;
+    height: 100% !important;
+    width: 100%;
+    margin-top: 35%;
+}
+
+.namestitle {
+    color: white !important;
+    font-size: 14px !important;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
+    margin-top: -300px;
+}
+
+.img-fluid {
+    box-shadow: 10px 5px 5px black;
+    width: 130px !important;
+    position: relative;
+    margin-top: -700px;
+}
+
+.selectedLeft {
+    /* position: fixed !important; */
+    top: calc(5% - 120px);
+    right: calc(25% - 80px);
+    width: auto !important;
+    z-index: 20;
+    margin-top: -350px;
+    font-size: 0px !important;
+}
+
+.selectedRight {
+    /*position: fixed !important; */
+    top: calc(5% - 120px);
+    left: calc(25% - 80px);
+    width: auto !important;
+    z-index: 20;
+    margin-top: -350px;
+    font-size: 0px !important;
+}
+/*
+.swear {
+    position: absolute;
+    top: 25%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1030px;
+}
+
+.swear2 {
+    position: absolute;
+    top: 25%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}*/
+/*
+.grosmots {
+    margin-bottom: 35px;
+}
+
+.grosmotss {
+    margin-bottom: 35px;
+}*/
+/*
+.lifebars {
+    margin-top: 100px;
+}
+
+.bars {
+    position: relative;
+    margin-top: 55%;
+    z-index: 0;
+} */
+
+.barsmen {
+    position: relative;
+    margin-right: 0px;
+    margin-top: 290%;
+    z-index: 0;
+}
+
+.onlybutton {
+  display: flex;
+  justify-content: center;
 }
