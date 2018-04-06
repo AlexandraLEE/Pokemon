@@ -11,3 +11,30 @@
   font-size: 48px;
   color: white;
 }
+
+.justwomen {
+  display: flex;
+  justify-content: space-around;
+  height: 100% !important;
+  width: 100%;
+  margin-top: 35%;
+}
+
+.namestitle {
+  color: white !important;
+  font-size: 14px !important;
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.img-fluid {
+  box-shadow: 10px 5px 5px black;
+  width: 130px !important;
+}
+
+.play {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}

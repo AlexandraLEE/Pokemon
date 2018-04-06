@@ -22,4 +22,6 @@ import { NavbarComponent } from './navbar/navbar.component';
   providers: [ApiService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+}

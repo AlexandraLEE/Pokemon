@@ -1,21 +1,50 @@
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light titlebar">
-  <a class="navbar-brand pagetitle" href="#">THE BATTLE OF THE SEXES</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark titlebar">
+  <a class="navbar-brand pagetitle" href="#">THE SUPER BATTLE OF THE SEXES</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-  aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-  <ul class="navbar-nav">
-  <li class="nav-item active">
-  <a class="nav-link" routerLink="home">Home
-  <span class="sr-only">(current)</span>
-  </a>
-  </li>
 
-  <li class="nav-item">
-  <a class="nav-link disabled" routerLink="test">Test</a>
-  </li>
-  </ul>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="home">Home
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" routerLink="test">Test</a>
+      </li>
+    </ul>
   </div>
-  </nav>
+</nav>
+
+<div class="container-fluid players">
+  <div class="row">
+    <div class="col-5 players">
+      <h1 class="play">Player 1</h1>
+    </div>
+    <div class="col-2 players">
+      <h1 class="play">vs.</h1>
+    </div>
+    <div class="col-5 players">
+      <h1 class="play">Player 2</h1>
+    </div>
+  </div>
+</div>
+
+<!-- the players battling-->
+
+
+<!-- choose an avatar-->
+
+<div class="container womenchoices">
+  <div class="row justwomen">
+    <div class="col-1" *ngFor="let hero of heroes">
+      <div *ngIf="hero">
+        <a href="#"><img class="img-fluid" src="{{hero.images.sm}}" alt="{{hero.name}}"></a><p class="namestitle">{{hero.name}} </p>
+      </div>
+    </div>
+  </div>
+</div>
+
