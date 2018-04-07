@@ -5,7 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
-import { ApiService } from './shared/api.service';
+import { ApiService } from './service/api.service';
 import { TestComponent } from './test/test.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
