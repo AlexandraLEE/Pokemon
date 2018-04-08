@@ -23,9 +23,7 @@
   </div>
 </div>
 
-<!-- swear buttons-->
-<!--
-
+<!-- misplaced swear buttons
 <div class="container swearfour">
   <div class="row swear">
     <div class="col-1 pops">
@@ -34,46 +32,21 @@
         Swear
       </button>
 
-      <button type="button" class="btn btn-secondary grosmots" data-container="body" data-toggle="popover" data-placement="right"
-        data-content="You, redneck!">
-        Swear
-      </button>
-      <button type="button" class="btn btn-secondary grosmots" data-container="body" data-toggle="popover" data-placement="right"
-        data-content="Get lost!">
-        Swear
-      </button>
-      <button type="button" class="btn btn-secondary grosmots" data-container="body" data-toggle="popover" data-placement="right"
-        data-content="Mother flower!">
-        Swear
-      </button>
     </div>
   </div>
 
 
   <div class="row swear2">
-    <div class="col-1 pops">
+    <div class="col-1 offset-10 pops">
       <button type="button" class="btn btn-secondary grosmotss" data-container="body" data-toggle="popover" data-placement="left"
         data-content="Fuck off, you Cow!">
         Swear
       </button>
-      <button type="button" class="btn btn-secondary grosmotss" data-container="body" data-toggle="popover" data-placement="left"
-        data-content="What the hell ?">
-        Swear
-      </button>
-      <button type="button" class="btn btn-secondary grosmotss" data-container="body" data-toggle="popover" data-placement="left"
-        data-content="">
-        Swear
-      </button>
-      <button type="button" class="btn btn-secondary grosmotss" data-container="body" data-toggle="popover" data-placement="left"
-        data-content="">
-        Swear
-      </button>
-      <button type="button" class="btn btn-secondary grosmotss" (click)="openModal()">
-        Swear
-      </button>
+
+
     </div>
 
-  </div> -->
+  </div>-->
 
 <!-- the players battling-->
 <!--<ng-template #content1 let-c="close" let-d="dismiss">
@@ -126,9 +99,31 @@
           </button>
           <button type="button" class="btn btn-secondary onlybutton" (click)="superAttack(i)">
               super attack
-            </button>
+          </button>
+          <button type="button" class="btn btn-secondary onlybutton" data-toggle="modal" data-target="#swearbutton">
+            swear
+          </button>
 
-            
+
+<!-- Modal -->
+<div class="modal fade" id="swearbutton" tabindex="-1" role="dialog" aria-labelledby="swearbutton" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="swearbutton">What the fuck ?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>>
+
+
           <!--<button type="button" class="btn btn-secondary grosmotss" (click)="openModal()">
             Swear
           </button> -->

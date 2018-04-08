@@ -17,7 +17,9 @@ export class NavbarComponent implements OnInit {
   closeResult: string;
   selectedHero = [];
   @ViewChild('content1') private content;
+  
   constructor(private apiService: ApiService, private modalService: NgbModal) { }
+
 
   ngOnInit() {
     let womenIds = [42, 52, 98, 104];
